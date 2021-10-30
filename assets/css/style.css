@@ -78,6 +78,7 @@ img,abbr,acronym,fieldset{border:0;}
 	width: 30vw;
 	height: 4vh;
 	margin-top: 5vh;
+	margin-bottom: 5vh;
 	background-color: rgb(252, 134, 88);
 	color: black;
 	text-decoration: none;
