@@ -6,20 +6,22 @@
 	<meta name="viewport" content="width=device-width">
 	<title>消毒くん</title>
 	<link rel="stylesheet" media="all" href="./assets/css/style.css">
+    <link rel="stylesheet" media="all" href="./assets/css/count.css">
 	<link rel="icon" type="image/x-icon" href="./assets/images/iconTop.png">
 </head>
 <body>
 	<div id=head>
 		<b>消毒くん設定</b>
 	</div>
-	<a id="button1" class="button" href="./sound.html">
-		喋る音声を変更
-	</a>
-	<a id="button2" class="button" href="./people.html">
-		ご協力人数を確認
-	</a>
-	<a id="button3" class="button" href="./over.html">
-		消毒残量を確認
-	</a>
+    <h2>残り消毒残量はおよそ...</h2>
+    <div class="count">
+        <span id="counter3">0</span>％です．
+    </div>
+    <form>
+        <div class="no-label">
+            <button id="submit" type="button">リセット</button>
+        </div>
+    </form>
+    <a class="back" href="./index.html"><b>もどる</b></a>
 </body>
 </html>

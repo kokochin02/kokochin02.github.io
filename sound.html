@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="高専祭">
+	<meta name="viewport" content="width=device-width">
+	<title>消毒くん</title>
+	<link rel="stylesheet" media="all" href="./assets/css/style.css">
+    <link rel="stylesheet" media="all" href="./assets/css/form.css">
+	<link rel="icon" type="image/x-icon" href="./assets/images/iconTop.png">
+</head>
+<body>
+	<div id=head>
+		<b>消毒くん設定</b>
+	</div>
+    <h2>追加したい音声メッセージを文章で入力してください．</h2>
+	<form>
+        <div class="item">
+            <p><label class="label must" for="message">シチュエーション</label></p>
+            <p><select name="prefecture_code" type="prefecture_code" name="prefecture_code">
+                <option value="1">来客音声</option>
+                <option value="2">消毒音声</option>
+                <option value="3">両方に設定</option>
+            </select></p>
+        </div>
+        <div class="item">
+            <p><label class="label own"  for="message">音声メッセージ</label>
+            <p><textarea id="text"  name="text" type="text"></textarea></p>
+        </div>
+        <div class="no-label">
+            <button id="submit" type="button">送信</button>
+        </div>
+    </form>
+    <h2>削除したい音声メッセージを選択してください．</h2>
+    <form id="delete">
+        <div class="item">
+            <p><label class="label must" for="message">来客音声</label></p>
+            <p><select name="prefecture_code" type="prefecture_code" name="prefecture_code">
+                <option value="0">---------</option>
+                <option value="1">こんにちは</option>
+                <option value="2">いつもありがとう</option>
+                <option value="3">入退時は消毒お願いします</option>
+            </select></p>
+        </div>
+        <div class="item">
+            <p><label class="label must" for="message">消毒音声</label></p>
+            <p><select name="prefecture_code" type="prefecture_code" name="prefecture_code">
+                <option value="0">---------</option>
+                <option value="1">ご協力ありがとう</option>
+                <option value="2">綺麗になったね</option>
+                <option value="3">みんなで消毒，はっぴー</option>
+            </select></p>
+        </div>
+        <div class="no-label">
+            <button id="submit" type="button">送信</button>
+        </div>
+    </form>
+    <a class="back" href="./index.html"><b>もどる</b></a>
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+h2 {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: rgb(161, 228, 166);
+    border-radius: 20px;
+}
+
+#delete {
+    background-color: rgb(133, 210, 255);
+}
+
+.item {
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+}
+
+select {
+    width: 90%;
+    height: 2.0em;
+}
+
+textarea {
+    width: 90%;
+    height: 3.0em;
+}
+
+button {
+    border: none;
+    outline: none;
+    display: block;
+    line-height: 30px;
+    width: 90%;
+    font-size: 120%;
+    color: #fff;
+    background-color: #444444;
+    cursor:pointer; 
+    box-sizing: content-box;
+    transition:0.3s ease all;
+	border-radius: 30px;
+    margin: 0 auto;
+	margin-top: 13px;
+    text-align: center;
+  }
+
+  button:hover {
+    background-color: #222222;
+  }
+
+@media only screen and (max-width: 849px){
+    
+    h2 {
+        width: 90vw;
+    }
+    
+    form {
+        width: 90vw;
+    }
+
+}
+  
