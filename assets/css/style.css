@@ -25,6 +25,10 @@ img,abbr,acronym,fieldset{border:0;}
 	}
 }
 
+body {
+	font-family: "Arial", "メイリオ";
+	}
+
 /* へっだー
 ------------------------------------------------------------*/
 #head {
